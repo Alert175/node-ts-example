@@ -5,12 +5,12 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "start:prod": "node dist/main.js"
+    "start:prod": "node dist/main.js",
+    "start:dev": "ts-node src/main.ts"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@types/node": "^18.0.1",
-    "http": "^0.0.1-security"
+    "@types/node": "^18.0.1"
   }
 }
